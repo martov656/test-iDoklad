@@ -1,0 +1,28 @@
+﻿S.NO.,Key,Version,Title,Owner
+1,ID-TC-1,1,iDoklad - registrace proběhne v pořádku,Martin Továrek
+2,ID-TC-2,1,"iDoklad - přihlášení - správný mail, správné heslo",Martin Továrek
+3,ID-TC-3,1,"iDoklad - přihlášení - správný mail, špatné heslo",Martin Továrek
+4,ID-TC-4,1,"iDoklad - přihlášení - špatný mail, správné heslo",Martin Továrek
+5,ID-TC-5,1,iDoklad - obnovení zapomenutého hesla,Martin Továrek
+6,ID-TC-6,1,iDoklad - vytvoření nové faktury,Martin Továrek
+7,ID-TC-7,1,iDoklad - úprava údajů ve faktuře vydané,Martin Továrek
+8,ID-TC-8,1,IDoklad - přidání dodací adresy v adresáři - kontakty,Martin Továrek
+9,ID-TC-9,1,iDoklad - vytvoření dodací adresy do jiného státu,Martin Továrek
+10,ID-TC-10,1,iDoklad - vytvoření nového bankovního účtu - faktura vydaná,Martin Továrek
+11,ID-TC-11,1,IDoklad - přidání nového kontaktu v rámci ČR,Martin Továrek
+12,ID-TC-12,1,iDoklad - úprava dodací adresy z cenové nabídky,Martin Továrek
+13,ID-TC-13,1,iDoklad - přidání nového kontaktu v rámci zahraničí,Martin Továrek
+14,ID-TC-14,1,iDoklad - smazání faktury vydané,Martin Továrek
+15,ID-TC-15,1,iDoklad - kopírování faktury vydané,Martin Továrek
+16,ID-TC-16,1,iDoklad - odeslání faktury vydané na mail,Martin Továrek
+17,ID-TC-17,1,iDoklad - obnovení smazané faktury vydané,Martin Továrek
+18,ID-TC-18,1,iDoklad - export faktury do PDF s novou dodací adresou,Martin Továrek
+19,ID-TC-19,1,iDoklad - export seznamu do XLSX a CSV,Martin Továrek
+20,ID-TC-20,1,iDoklad - snadná úprava uživatelského účtu firmy,Martin Továrek
+21,ID-TC-21,1,iDoklad - vytvoření a naskladnění nové položky v ceníku,Martin Továrek
+22,ID-TC-22,1,iDoklad - naskladnění a vyskladnění produktu,Martin Továrek
+23,ID-TC-23,1,iDoklad - možnost přidání slevy na zboží ve faktuře vydané,Martin Továrek
+24,ID-TC-24,1,iDoklad - vytvoření cenové nabídky,Martin Továrek
+25,ID-TC-25,1,iDoklad - možnost kombinace slevy na položku a zároveň celkovou slevu na fakturu,Martin Továrek
+26,ID-TC-26,1,iDoklad - možnost kontaktovat podporu,Martin Továrek
+27,ID-TC-27,1,iDoklad - odhlášení a stisknutí tlačítka zpět,Martin Továrek
