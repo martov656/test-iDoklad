@@ -1,0 +1,727 @@
+"Cycle Details"
+"ID-CY-1: iDoklad",""
+"Objective","Testování účetní aplikace iDoklad https://app.idoklad.cz/"
+"Folder",""
+"Owner","Martin Továrek"
+"Components",""
+"Releases",""
+"Start Date",""
+"End Date",""
+"Tags",""
+"Estimated Effort",""
+"Actual Effort","0m"
+"Attachments",""
+"Tasks",""
+"AIO Tests - Cycle Execution Report","Page 1 of 32","Index →"
+"INDEX"
+"#.","Case","Run Status","Page",""
+"1","ID-TC-27 (1): iDoklad - odhlášení a stisknutí tlačítka zpět","Passed","4 →",""
+"2","ID-TC-26 (1): iDoklad - možnost kontaktovat podporu","Passed","5 →",""
+"3","ID-TC-25 (1): iDoklad - možnost kombinace slevy na položku a zároveň celkovou slevu na fakturu","Failed","6 →",""
+"4","ID-TC-24 (1): iDoklad - vytvoření cenové nabídky","Passed","7 →",""
+"5","ID-TC-23 (1): iDoklad - možnost přidání slevy na zboží ve faktuře vydané","Passed","8 →",""
+"6","ID-TC-22 (1): iDoklad - naskladnění a vyskladnění produktu","Passed","9 →",""
+"7","ID-TC-21 (1): iDoklad - vytvoření a naskladnění nové položky v ceníku","Passed","10 →",""
+"8","ID-TC-20 (1): iDoklad - snadná úprava uživatelského účtu firmy","Passed","11 →",""
+"9","ID-TC-19 (1): iDoklad - export seznamu do XLSX a CSV","Passed","13 →",""
+"10","ID-TC-18 (1): iDoklad - export faktury do PDF s novou dodací adresou","Passed","14 →",""
+"11","ID-TC-17 (1): iDoklad - obnovení smazané faktury vydané","Passed","16 →",""
+"12","ID-TC-16 (1): iDoklad - odeslání faktury vydané na mail","Passed","17 →",""
+"13","ID-TC-15 (1): iDoklad - kopírování faktury vydané","Passed","18 →",""
+"14","ID-TC-14 (1): iDoklad - smazání faktury vydané","Passed","19 →",""
+"15","ID-TC-13 (1): iDoklad - přidání nového kontaktu v rámci zahraničí","Passed","20 →",""
+"16","ID-TC-12 (1): iDoklad - úprava dodací adresy z cenové nabídky","Passed","21 →",""
+"17","ID-TC-11 (1): IDoklad - přidání nového kontaktu v rámci ČR","Passed","22 →",""
+"18","ID-TC-10 (1): iDoklad - vytvoření nového bankovního účtu - faktura vydaná","Passed","23 →",""
+"19","ID-TC-9 (1): iDoklad - vytvoření dodací adresy do jiného státu","Failed","24 →",""
+"20","ID-TC-8 (1): IDoklad - přidání dodací adresy v adresáři - kontakty","Passed","25 →",""
+"21","ID-TC-7 (1): iDoklad - úprava údajů ve faktuře vydané","Passed","26 →",""
+"22","ID-TC-6 (1): iDoklad - vytvoření nové faktury","Passed","27 →",""
+"23","ID-TC-5 (1): iDoklad - obnovení zapomenutého hesla","Passed","28 →",""
+"24","ID-TC-4 (1): iDoklad - přihlášení - špatný mail, správné heslo","Passed","29 →",""
+"AIO Tests - Cycle Execution Report","Page 2 of 32","","","Index →"
+"25","","ID-TC-3 (1): iDoklad - přihlášení - správný mail, špatné heslo","","Passed","","30 →",""
+"26","","ID-TC-2 (1): iDoklad - přihlášení - správný mail, správné heslo","","Passed","","31 →",""
+"27","","ID-TC-1 (1): iDoklad - registrace proběhne v pořádku","","Passed","","32 →",""
+"AIO Tests - Cycle Execution Report","Page 3 of 32","Index →"
+"1. ID-TC-27 (1):","","iDoklad - odhlášení a stisknutí tlačítka zpět","","","","",""
+"Pre-conditions","","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","",""
+"","","","Prohlížeč Mozilla Firefox","","","",""
+"Run Details","","","","","","",""
+"Assignee","","","Martin Továrek","","","",""
+"Status","","","Passed","","","",""
+"Actual Effort","","","","","","",""
+"Defects","","","","","","",""
+"Attachments","","","","","","",""
+"Created","","","02 Apr 2025, 03:30 PM","","","",""
+"Updated","","","02 Apr 2025, 03:50 PM","","","",""
+"Execution Mode","","","Manual","","","",""
+"#","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","and Co
+mments"
+"1","1. 
+2. ","odhlásíme sezmačkneme tlačítko zpět","2/24/2025 6:06 
+AM","Uživatel by se neměl dostat zpět do aplikace, měli by se zobrazit 
+přihlašovací údaje.","Uživatel se zpět nedostane do aplikace bez 
+přihlášení.","Passe
+d",""
+"AIO Tests - Cycle Execution Report","Page 4 of 32","Index →"
+"2. ID-TC-26 (1): iDoklad - možnost kontaktovat podporu","","","","","",""
+"Pre-conditions","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","Uložená registrace do zákaznického portálu","","","","",""
+"","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","",""
+"Assignee","Martin Továrek","","","","",""
+"Status","Passed","","","","",""
+"Actual Effort","","","","","",""
+"Defects","","","","","",""
+"Attachments","","","","","",""
+"Created","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","02 Apr 2025, 03:50 PM","","","","",""
+"Execution Mode","Manual","","","","",""
+"#","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents and"
+"","","","","","","Commen
+ts"
+"1","","2/24/2025 6:49 AM","Spojíme se s podporou.","","Passed",""
+"","1. v sekci nápověda klikneme na kontaktovat podporu","","","S podporou lze bez problému komunikovat.","",""
+"","2. klikneme na nový","","","","",""
+"","3. napíšeme požadavek a dáme odeslat","","","","",""
+"AIO Tests - Cycle Execution Report","Page 5 of 32","Index →"
+"3. ID-TC-25 (1):","","iDoklad - možnost kombinace slevy na položku a zároveň celkovou slevu na fakturu","","","","",""
+"Pre-conditions","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","",""
+"Assignee","","Martin Továrek","","","","",""
+"Status","","Failed","","","","",""
+"Actual Effort","","","","","","",""
+"Defects","","","","","","",""
+"Attachments","","","","","","",""
+"Created","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","02 Apr 2025, 03:49 PM","","","","",""
+"Execution Mode","","Manual","","","","",""
+"#","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","and Co
+mments"
+"1","1. klikneme na fakturu č. 202500082. klikneme na upravit","","2/24/2025 6:23 
+AM","Bude možné mít slevu na položku i na celkové 
+faktuře. ","Kombinace slevy na položku a na fakturu není 
+možná.","Failed",""
+"","3. ","u položky v Akce klikneme na přidat slevu","","","","",""
+"","4. ","dáme uložit","","","","",""
+"AIO Tests - Cycle Execution Report","Page 6 of 32","Index →"
+"4. ID-TC-24 (1):","iDoklad - vytvoření cenové nabídky","","","","",""
+"Pre-conditions","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","",""
+"Assignee","Martin Továrek","","","","",""
+"Status","Passed","","","","",""
+"Actual Effort","","","","","",""
+"Defects","","","","","",""
+"Attachments","","","","","",""
+"Created","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","02 Apr 2025, 03:48 PM","","","","",""
+"Execution Mode","Manual","","","","",""
+"#","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","and Com
+ments"
+"1","","2/24/2025 6:23 AM","Cenová nabídka se v pořádku vytvoří.","","Passed",""
+"","1. klikneme na cenové nabídky","","","Cenová nabídka se v pořádku vytvoří.","",""
+"","2. klikneme na vytvořit","","","","",""
+"","3. zadáme firmu GymBeam s.r.o.","","","","",""
+"","4. do popisu zadáme cenová nabídka firmy GymBeam","","","","",""
+"","5. z položky vybereme Boxovací pytel, 1999 kč, 1 ks","","","","",""
+"","6. dáme vytvořit","","","","",""
+"AIO Tests - Cycle Execution Report","Page 7 of 32","Index →"
+"5. ID-TC-23 (1):","iDoklad - možnost přidání slevy na zboží ve faktuře vydané","","","","","",""
+"Pre-conditions","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","",""
+"Assignee","","Martin Továrek","","","","",""
+"Status","","Passed","","","","",""
+"Actual Effort","","","","","","",""
+"Defects","","","","","","",""
+"Attachments","","","","","","",""
+"Created","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","02 Apr 2025, 03:48 PM","","","","",""
+"Execution Mode","","Manual","","","","",""
+"#","","Step","Data","Expected Result","Actual Result","Status","Defects, Atta
+chments
+and"
+"","","","","","","","Comments"
+"1","","","2/23/2025 4:44 PM","Sleva se nám vypočítá a uloží.","","Passed",""
+"","1. klikneme na faktury vydané","","","","Sleva se uloží.","",""
+"","2. zvolíme fakturu č. 20250008","","","","","",""
+"","3. klikneme na upravit","","","","","",""
+"","4. dole u ceny zadáme slevu 20%","","","","","",""
+"AIO Tests - Cycle Execution Report","Page 8 of 32","Index →"
+"6. ID-TC-22 (1):","","iDoklad - naskladnění a vyskladnění produktu","","","","","",""
+"Pre-conditions","","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","","",""
+"Assignee","","","Martin Továrek","","","","",""
+"Status","","","Passed","","","","",""
+"Actual Effort","","","","","","","",""
+"Defects","","","","","","","",""
+"Attachments","","","","","","","",""
+"Created","","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","","02 Apr 2025, 03:48 PM","","","","",""
+"Execution Mode","","","Manual","","","","",""
+"#","","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","","and Co
+mments"
+"1","1. ","v sekci Seznam položek ceníku u položky Red Bull klikneme na naskladnit","","2/23/2025 
+4:36 PM","Stav skladu by se měl měnit podle toho kolik jsme 
+naskladnili nebo vyskladnili položek.","Stav skladu lze snadno 
+naskladňovat i vyskladňovat.","Passe
+d",""
+"","2. zadáme 4 kusy a dáme uložit","","","","","","",""
+"","3. u stejné položky klikneme na vyskladnit","","","","","","",""
+"","4. zadáme 2 kusy a dáme uložit","","","","","","",""
+"AIO Tests - Cycle Execution Report","Page 9 of 32","Index →"
+"7. ID-TC-21 (1):","","iDoklad - vytvoření a naskladnění nové položky v ceníku","","","","",""
+"Pre-conditions","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","",""
+"Assignee","","Martin Továrek","","","","",""
+"Status","","Passed","","","","",""
+"Actual Effort","","","","","","",""
+"Defects","","","","","","",""
+"Attachments","","","","","","",""
+"Created","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","02 Apr 2025, 03:47 PM","","","","",""
+"Execution Mode","","Manual","","","","",""
+"#","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","and Co
+mments"
+"1","1. 
+2. 
+3. 
+4. 
+5. ","v ceníku klikneme a Seznam položek ceníkunazev položky: Red Bulljednotka: kscena: 29,90 kčzaškrtneme Sledovat stav skladu","2/25/2025 6:
+57 AM","Údaje o produktu budou uloženy a produkt bude naskladněn v 
+požadovaném množství. ","Produkt je uložen a naskladněn v 
+požadovaném množství.","Passe
+d",""
+"","6. 
+7. ","množství zadáme 10dáme uložit","","","","",""
+"AIO Tests - Cycle Execution Report","Page 10 of 32","Index →"
+"8. ID-TC-20 (1):","iDoklad - snadná úprava uživatelského účtu firmy","","","","","",""
+"Pre-conditions","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","",""
+"Assignee","","Martin Továrek","","","","",""
+"Status","","Passed","","","","",""
+"Actual Effort","","","","","","",""
+"Defects","","","","","","",""
+"Attachments","","","","","","",""
+"Created","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","02 Apr 2025, 03:46 PM","","","","",""
+"Execution Mode","","Manual","","","","",""
+"#","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","and Co
+mments"
+"1","1. v nastavení klikneme na firma2. zadáme Správa firem","","2/23/2025 3:56 
+PM","Pozmeněné údaje se v pořádku 
+uloží.","Údaje se nám v pořádku 
+uloží.","Passe
+d",""
+"","3. klikneme na založit novou firmu","","","","","",""
+"","4. vyplníme údaje - firma: Druhá úklidová","","","","","",""
+"","5. zaškrtneme nemám IČ","","","","","",""
+"","6. ulice: Dušní 2","","","","","",""
+"","7. PSČ: 11000","","","","","",""
+"","8. město: Praha","","","","","",""
+"AIO Tests - Cycle Execution Report","","","Page 11 of 32","","","","Index →"
+"","","",""
+"9. ","","email necháme martintovarek2@gmail.com",""
+"10. ","","číslo bankovního účtu: 630200-4006789495, kód banky 6215 ",""
+"","","Mbank",""
+"11. ","","dáme uložit",""
+"AIO Tests - Cycle Execution Report","Page 12 of 32","Index →"
+"9. ID-TC-19 (1): iDoklad - export seznamu do XLSX a CSV","","","","","","",""
+"Pre-conditions","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","",""
+"Assignee","","Martin Továrek","","","","",""
+"Status","","Passed","","","","",""
+"Actual Effort","","","","","","",""
+"Defects","","","","","","",""
+"Attachments","","","","","","",""
+"Created","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","02 Apr 2025, 03:46 PM","","","","",""
+"Execution Mode","","Manual","","","","",""
+"#","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","and Co
+mments"
+"1","1. vybereme fakturu 20250008 a 20250007","","2/23/2025 3:53 
+PM","Soubor bude odpovídat tomu co jsme si navolili v 
+přehledu. ","Exporty se nám udělají v XLSX a ","Passe
+d",""
+"","2. v nabídce dáme export","","","","CSV.","",""
+"","3. 
+4. 
+5. ","dáme export do XLSX/CSVobjeví se nám sloupce, které chceme vyexportovatdáme exportovat","","","","",""
+"AIO Tests - Cycle Execution Report","Page 13 of 32","Index →"
+"10. ID-TC-18 (1):","","iDoklad - export faktury do PDF s novou dodací adresou","","","","","",""
+"Pre-conditions","","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","","",""
+"Assignee","","","Martin Továrek","","","","",""
+"Status","","","Passed","","","","",""
+"Actual Effort","","","","","","","",""
+"Defects","","","","","","","",""
+"Attachments","","","","","","","",""
+"Created","","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","","02 Apr 2025, 03:45 PM","","","","",""
+"Execution Mode","","","Manual","","","","",""
+"#","","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","","and Co
+mments"
+"1","1. ","v kontaktech přidáme novou dodací adresu: Chuck Norris inc.","","2/23/2025 3:
+37 PM","Faktura se nám převede do PDF s novou 
+dodací adresou.","Faktura se nám převede do 
+PDF souboru.","Passe
+d",""
+"","2. ulice: 900 Wilshire Blvd","","","","","","",""
+"","3. PSČ: 90017","","","","","","",""
+"","4. město: Los Angeles","","","","","","",""
+"","5. stát: Spojené státy","","","","","","",""
+"","6. vytvoříme novou fakturu vydanou","","","","","","",""
+"","7. do popisu napíšeme fakturace zboží","","","","","","",""
+"","8. u položky zadáme boxovací rukavice","","","","","","",""
+"AIO Tests - Cycle Execution Report","","","","Page 14 of 32","","","","Index →"
+"","",""
+"9. ","","způsob úhrady: hotově"
+"10. ","","vybereme fakturu č. 20250008 - na konci řádku v Akce na symbol exportu do PDF"
+"AIO Tests - Cycle Execution Report","Page 15 of 32","Index →"
+"11. ID-TC-17 (1): iDoklad - obnovení smazané faktury vydané","","","","","",""
+"Pre-conditions","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","Aktivovaný koš - nastavení - aplikace","","","","",""
+"","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","",""
+"Assignee","Martin Továrek","","","","",""
+"Status","Passed","","","","",""
+"Actual Effort","","","","","",""
+"Defects","","","","","",""
+"Attachments","","","","","",""
+"Created","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","02 Apr 2025, 03:44 PM","","","","",""
+"Execution Mode","Manual","","","","",""
+"#","Step","Data","Expected Result","Actual Result","Status","Defects, At
+tachments
+and"
+"","","","","","","Comments"
+"1","","2/25/2025 5:52 AM","","","Passed",""
+"","1. klikneme na faktury vydané","","Smazaná faktura se obnoví.","Smazaná faktura jde obnovit.","",""
+"","2. klineme na koš","","","","",""
+"","3. v Akce klikneme na obnovit doklad","","","","",""
+"AIO Tests - Cycle Execution Report","Page 16 of 32","Index →"
+"12. ID-TC-16 (1):","","iDoklad - odeslání faktury vydané na mail","","","","",""
+"Pre-conditions","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","Musí být vyplněn mail v dodacích údajích","","","","",""
+"","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","",""
+"Assignee","","Martin Továrek","","","","",""
+"Status","","Passed","","","","",""
+"Actual Effort","","","","","","",""
+"Defects","","","","","","",""
+"Attachments","","","","","","",""
+"Created","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","02 Apr 2025, 03:44 PM","","","","",""
+"Execution Mode","","Manual","","","","",""
+"#","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","and Co
+mments"
+"1","1. zaškrtneme faktura vydaná č. 202500032. klikneme na tlačítko odeslat","","2/23/2025 3:27 
+PM","Na vybranou e-mailovou adresu příjde mail s 
+fakturou. ","Na příslušný mail přijde 
+faktura.","Passe
+d",""
+"","3. ","zaškrtneme Zákazníkovi: martintovarek2gmail.","","","","",""
+"","","com","","","","",""
+"","4. 
+5. ","zaškrtneme Odkaz na PDF v prohlížečidáme odeslat","","","","",""
+"AIO Tests - Cycle Execution Report","Page 17 of 32","Index →"
+"13. ID-TC-15 (1):","","iDoklad - kopírování faktury vydané","","","","","",""
+"Pre-conditions","","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","","",""
+"Assignee","","","Martin Továrek","","","","",""
+"Status","","","Passed","","","","",""
+"Actual Effort","","","","","","","",""
+"Defects","","","","","","","",""
+"Attachments","","","","","","","",""
+"Created","","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","","02 Apr 2025, 03:43 PM","","","","",""
+"Execution Mode","","","Manual","","","","",""
+"#","","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","","and Co
+mments"
+"1","1. ","ve fakturách vydaných zaškrtneme fakturu č. 20250003","","2/23/2025 3:08 
+PM","Faktura se v pořádku zkopíruje se stejnými 
+údaji.","Faktura se zkopíruje se stejnými 
+údaji.","Passe
+d",""
+"","2. ","na hlavní liště klikneme na ikonu kopírovat","","","","","",""
+"AIO Tests - Cycle Execution Report","Page 18 of 32","Index →"
+"14. ID-TC-14 (1):","iDoklad - smazání faktury vydané","","","","","",""
+"Pre-conditions","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","",""
+"Assignee","","Martin Továrek","","","","",""
+"Status","","Passed","","","","",""
+"Actual Effort","","","","","","",""
+"Defects","","","","","","",""
+"Attachments","","","","","","",""
+"Created","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","02 Apr 2025, 03:43 PM","","","","",""
+"Execution Mode","","Manual","","","","",""
+"#","","Step","Data","Expected Result","Actual Result","Status","Defects, Att
+achments
+and"
+"","","","","","","","Comments"
+"1","","","2/23/2025 2:51 PM","Faktura se nám smaže.","","Passed",""
+"","1. jdeme do sekce faktury vydané","","","","Fakturu lze snadno smazat.","",""
+"","2. vybereme faktura vydaná č. 20250002","","","","","",""
+"","3. klikneme na smazat","","","","","",""
+"AIO Tests - Cycle Execution Report","Page 19 of 32","Index →"
+"15. ID-TC-13 (1):","iDoklad - přidání nového kontaktu v rámci zahraničí","","","","",""
+"Pre-conditions","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","",""
+"Assignee","Martin Továrek","","","","",""
+"Status","Passed","","","","",""
+"Actual Effort","","","","","",""
+"Defects","","","","","",""
+"Attachments","","","","","",""
+"Created","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","02 Apr 2025, 03:42 PM","","","","",""
+"Execution Mode","Manual","","","","",""
+"#","Step","Data","Expected Result","Actual Result","Status","Defects, Att
+achments
+and"
+"","","","","","","Comments"
+"1","","2/23/2025 2:45 PM","Záznam se v pořádku uloží.","","Passed",""
+"","1. v kontaktech klikneme na nový","","","Záznam se v pořádku uloží.","",""
+"","2.  do jména napíšeme: Carrefour","","","","",""
+"","3. ulice: 93 Avenue De Paris","","","","",""
+"","4. město: Massy, Ile-de-France","","","","",""
+"","5.  PSČ: 91300","","","","",""
+"","6. Stát: Francie","","","","",""
+"AIO Tests - Cycle Execution Report","Page 20 of 32","Index →"
+"16. ID-TC-12 (1):","iDoklad - úprava dodací adresy z cenové nabídky","","","","","",""
+"Pre-conditions","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","",""
+"Assignee","","Martin Továrek","","","","",""
+"Status","","Passed","","","","",""
+"Actual Effort","","","","","","",""
+"Defects","","","","","","",""
+"Attachments","","","","","","",""
+"Created","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","02 Apr 2025, 03:42 PM","","","","",""
+"Execution Mode","","Manual","","","","",""
+"#","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","and Com
+ments"
+"1","","","2/25/2025 7:44 AM","Záznam se nám v pořádku uloží.","","Passed",""
+"","1. v sekci cenové nabídk klikneme na cenovou nabídku č. CN20250001","","","","Záznam se v pořádku uloží.","",""
+"","2. zaklikneme dodací adresa je jiná, než fakturační","","","","","",""
+"","3. klkneme na upravit dodací adresu","","","","","",""
+"","4. název dodací adresy: GymBeam SK","","","","","",""
+"","5. ulice: Štefánikova 1877","","","","","",""
+"","6. PSČ: 81104","","","","","",""
+"","7. Město: Bratislava","","","","","",""
+"AIO Tests - Cycle Execution Report","Page 21 of 32","Index →"
+"17. ID-TC-11 (1):","IDoklad - přidání nového kontaktu v rámci ČR","","","","","",""
+"Pre-conditions","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","",""
+"Assignee","","Martin Továrek","","","","",""
+"Status","","Passed","","","","",""
+"Actual Effort","","","","","","",""
+"Defects","","","","","","",""
+"Attachments","","","","","","",""
+"Created","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","02 Apr 2025, 03:41 PM","","","","",""
+"Execution Mode","","Manual","","","","",""
+"#","","Step","Data","Expected Result","Actual Result","Status","Defects, A
+ttachment
+s and Com
+ments"
+"1","","","2/23/2025 2:30 PM","Záznam se v pořádku uloží. ","","Passed",""
+"","1. v kontaktech klikneme na nový","","","","Záznam se v pořádku uloží.","",""
+"","2. stát: Česká republika","","","","","",""
+"","3. firma: Atletika Písek, z.s.","","","","","",""
+"","4. IČ, ulice a město se nám zobrazí automaticky","","","","","",""
+"AIO Tests - Cycle Execution Report","Page 22 of 32","Index →"
+"18. ID-TC-10 (1):","","iDoklad - vytvoření nového bankovního účtu - faktura vydaná","","","","","",""
+"Pre-conditions","","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","","",""
+"Assignee","","","Martin Továrek","","","","",""
+"Status","","","Passed","","","","",""
+"Actual Effort","","","","","","","",""
+"Defects","","","","","","","",""
+"Attachments","","","","","","","",""
+"Created","","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","","02 Apr 2025, 03:41 PM","","","","",""
+"Execution Mode","","","Manual","","","","",""
+"#","","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","","and Co
+mments"
+"1","1. klikneme na faktury vydané2. pod moje platební údaje klikneme na upravit bankovní účet","","","2/24/2025 6:23 
+AM","Uživatel bez problémů vytvoří bankovní 
+účet. ","Bankovní účet se v pořádku 
+vytvoří","Passe
+d",""
+"","3. 
+4. ","vložíme číslo účtu: 000000-1234567890kód banky: 0600 (Moneta Money Bank)","","","","","",""
+"","5. dáme uložit","","","","","","",""
+"AIO Tests - Cycle Execution Report","Page 23 of 32","Index →"
+"19. ID-TC-9 (1):","","iDoklad - vytvoření dodací adresy do jiného státu","","","","","",""
+"Pre-conditions","","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","","",""
+"Assignee","","","Martin Továrek","","","","",""
+"Status","","","Failed","","","","",""
+"Actual Effort","","","","","","","",""
+"Defects","","","","","","","",""
+"Attachments","","","","","","","",""
+"Created","","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","","02 Apr 2025, 03:38 PM","","","","",""
+"Execution Mode","","","Manual","","","","",""
+"#","","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","","and Co
+mments"
+"1","1. ","v kontaktech klikneme na firmu Tesco Stores ČR a.s.","","2/25/2025 6:51 
+AM","Dodací adresa do zahraničí se nám 
+vytvoří.","Dodací adresu do zahraničí není možné 
+vytvořit","Failed",""
+"","2. ","klikneme na dodací adresy","","","","","",""
+"","3. klineme na fialové tlačítko upravit","","","","","","",""
+"","4. název dodací adresy: Tesco Stores Ltd","","","","","","",""
+"","5. ulice: 55 Morning Ln","","","","","","",""
+"","6. PSČ: E9 6ND","","","","","","",""
+"","7. Stát: Spojené království","","","","","","",""
+"AIO Tests - Cycle Execution Report","Page 24 of 32","Index →"
+"20. ID-TC-8 (1):","","IDoklad - přidání dodací adresy v adresáři - kontakty","","","","",""
+"Pre-conditions","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","",""
+"Assignee","","Martin Továrek","","","","",""
+"Status","","Passed","","","","",""
+"Actual Effort","","","","","","",""
+"Defects","","","","","","",""
+"Attachments","","","","","","",""
+"Created","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","02 Apr 2025, 03:40 PM","","","","",""
+"Execution Mode","","Manual","","","","",""
+"#","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","and Co
+mments"
+"1","1. v adresáři zadáme kontakty2. vybereme firmu Atletika Třebíč, z.s.","","2/25/2025 7:
+09 AM","Dodací adresa se v 
+pořádku uloží.","Dodací adresa se v 
+pořáídku uloží.","Passe
+d",""
+"","3. ","klikneme na dodací adresy","","","","",""
+"","4. ","nahoře klikneme na fialové tlačítko upravit","","","","",""
+"","5. ","vpravo klikneme na nová - do políček zadáme Atletika Třebíč - mládež, ","","","","",""
+"","6. ","Křížová 27, 67401, Třebíč
+dáme uložit","","","","",""
+"AIO Tests - Cycle Execution Report","Page 25 of 32","Index →"
+"21. ID-TC-7 (1):","","iDoklad - úprava údajů ve faktuře vydané","","","","",""
+"Pre-conditions","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","",""
+"Assignee","","Martin Továrek","","","","",""
+"Status","","Passed","","","","",""
+"Actual Effort","","","","","","",""
+"Defects","","","","","","",""
+"Attachments","","","","","","",""
+"Created","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","02 Apr 2025, 03:39 PM","","","","",""
+"Execution Mode","","Manual","","","","",""
+"#","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","and Co
+mments"
+"1","1. ","v sekci prodej u faktury vydané klikneme na číslo faktury nebo na symbol tužky v Akce","2/23/2025 2:
+28 PM","Faktura se v pořádku uloží s 
+pozměněnými údaji.","Faktura se uloží s 
+pozměnenými údaji.","Passe
+d",""
+"","2. 
+3. ","klikneme nahoře na fialové tlačítko upravitdo jednotky napíšeme ks a uložíme","","","","",""
+"AIO Tests - Cycle Execution Report","Page 26 of 32","Index →"
+"22. ID-TC-6 (1):","","iDoklad - vytvoření nové faktury","","","","","",""
+"Pre-conditions","","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","","",""
+"Assignee","","","Martin Továrek","","","","",""
+"Status","","","Passed","","","","",""
+"Actual Effort","","","","","","","",""
+"Defects","","","","","","","",""
+"Attachments","","","","","","","",""
+"Created","","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","","02 Apr 2025, 03:38 PM","","","","",""
+"Execution Mode","","","Manual","","","","",""
+"#","","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","","and Co
+mments"
+"1","1. ","klikneme na zelené tlačítko zelené tlačítko Nový","","2/24/2025 6:31 
+AM","Faktura se v pořádku vytvoří a uloží s 
+požadovanými údaji.","Faktura se uloží s požadovanými 
+údaji","Passe
+d",""
+"","2. ","dáme fakturu vydanou","","","","","",""
+"","3. zadáme odběratele Van Damme inc","","","","","","",""
+"","4. ","zadáme položku - Boxovací pytel - cena bude 1599","","","","","",""
+"","5. 
+6. ","způsob úhrady bude hotověklikneme na uložit","","","","","",""
+"AIO Tests - Cycle Execution Report","Page 27 of 32","Index →"
+"23. ID-TC-5 (1): iDoklad - obnovení zapomenutého hesla","","","","","","","",""
+"Pre-conditions","","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","","",""
+"Assignee","","","Martin Továrek","","","","",""
+"Status","","","Passed","","","","",""
+"Actual Effort","","","","","","","",""
+"Defects","","","","","","","",""
+"Attachments","","","","","","","",""
+"Created","","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","","02 Apr 2025, 03:37 PM","","","","",""
+"Execution Mode","","","Manual","","","","",""
+"#","","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","","and Co
+mments"
+"1","1. ","pod přihlašovacím políčkem na https://app.idoklad.cz/Account/Login klikneme na ""Zapomenuté heslo""","","2/21/2025 6:
+29 AM","Uživatel si snadno změní 
+zapomenuté heslo.","Uživatel si snadno 
+změní heslo","Passe
+d",""
+"","2. do políčka E-mailová adresa vložíme mail martintovarek2@gmail.com","","","","","","",""
+"","3. klikneme na odeslat","","","","","","",""
+"","4. přijde nam mail s možností nastavit nové heslo","","","","","","",""
+"AIO Tests - Cycle Execution Report","Page 28 of 32","Index →"
+"24. ID-TC-4 (1):","","iDoklad - přihlášení - špatný mail, správné heslo","","","","","",""
+"Pre-conditions","","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","","",""
+"Assignee","","","Martin Továrek","","","","",""
+"Status","","","Passed","","","","",""
+"Actual Effort","","","","","","","",""
+"Defects","","","","","","","",""
+"Attachments","","","","","","","",""
+"Created","","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","","02 Apr 2025, 03:36 PM","","","","",""
+"Execution Mode","","","Manual","","","","",""
+"#","","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","","and Co
+mments"
+"1","1. ","zadáme špatný mail: martintovarek2@gmail.com","","2/21/2025 6:23 
+AM","Uživatel se nepřihlásí, upozornění na nesprávné uživatelské 
+jméno.","Uživatel se 
+nepřihlásí","Passe
+d",""
+"","2. ","zadáme správné heslo: Whitesnake1987","","","","","",""
+"AIO Tests - Cycle Execution Report","Page 29 of 32","Index →"
+"25. ID-TC-3 (1):","iDoklad - přihlášení - správný mail, špatné heslo","","","","","",""
+"Pre-conditions","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"","","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","","",""
+"Assignee","","Martin Továrek","","","","",""
+"Status","","Passed","","","","",""
+"Actual Effort","","","","","","",""
+"Defects","","","","","","",""
+"Attachments","","","","","","",""
+"Created","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","02 Apr 2025, 03:33 PM","","","","",""
+"Execution Mode","","Manual","","","","",""
+"#","","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents"
+"","","","","","","","and Com
+ments"
+"1","","","2/21/2025 6:19 AM","Uživatel se nepřihlásí, upozornění na nesprávné heslo.","","Passed",""
+"","1. zadáme správný mail: martintovarek2@gmail.com","","","","Uživatel se nepřihlásil","",""
+"","2. zadáme špatné heslo: Whitesnake","","","","","",""
+"AIO Tests - Cycle Execution Report","Page 30 of 32","Index →"
+"26. ID-TC-2 (1):","iDoklad - přihlášení - správný mail, správné heslo","","","","","",""
+"Pre-conditions","","Založen účet v aplikaci iDoklad https://app.idoklad.cz/","","","","",""
+"Run Details","","","","","","",""
+"Assignee","","Martin Továrek","","","","",""
+"Status","","Passed","","","","",""
+"Actual Effort","","","","","","",""
+"Defects","","","","","","",""
+"Attachments","","","","","","",""
+"Created","","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","","02 Apr 2025, 03:33 PM","","","","",""
+"Execution Mode","","Manual","","","","",""
+"#","","Step","Data","Expected Result","Actual Result","Status","Defects, A
+ttachment
+s and Co
+mments"
+"1","","","2/21/2025 6:01 AM","Uživatel se bez problémů přihlásí.","","Not Run",""
+"","1. zadáme správný mail: martintovarek2@gmail.com","","","","Uživatel se přihlásil","",""
+"","2. zadáme správné heslo: Whitesnake1987","","","","","",""
+"AIO Tests - Cycle Execution Report","Page 31 of 32","Index →"
+"27. ID-TC-1 (1):","iDoklad - registrace proběhne v pořádku","","","","",""
+"Pre-conditions","Připravené přihlašovací údaje k registraci do aplikace iDoklad https://app.idoklad.cz/","","","","",""
+"","Prohlížeč Mozilla Firefox","","","","",""
+"Run Details","","","","","",""
+"Assignee","Martin Továrek","","","","",""
+"Status","Passed","","","","",""
+"Actual Effort","","","","","",""
+"Defects","","","","","",""
+"Attachments","","","","","",""
+"Created","02 Apr 2025, 03:30 PM","","","","",""
+"Updated","02 Apr 2025, 03:32 PM","","","","",""
+"Execution Mode","Manual","","","","",""
+"#","Step","Data","Expected Result","Actual Result","Status","Defects,
+Attachm
+ents and"
+"","","","","","","Commen
+ts"
+"1","","","Uživatel se bez problémů zaregistruje.","","Not Run",""
+"","1. zaregistrujeme se na mail: martintovarek2@gmail.com","","","Uživatel se v pořádku zaregistroval","",""
+"","2. vložíme toto heslo: Whitesnake 1987","","","","",""
+"AIO Tests - Cycle Execution Report","Page 32 of 32","Index →"
