@@ -1,0 +1,219 @@
+"S.NO.";"Key";"Title";"Description";"Pre-condition";"Estimated Effort(in mins)";"Automation Key";"Step Type";"Datasets/Examples";"Keyword";"Steps";"Linked Case";"Linked Case Version";"Data";"Expected Result";"Step Id"
+1;"ID-TC-1";"iDoklad - registrace prob?hne v po?ádku";"Testování základních funkcí aplikace ú?etní aplikace iDoklad.";"P?ipravené p?ihlašovací údaje k registraci do aplikace iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. zaregistrujeme se na mail: martintovarek2@gmail.com
+2. vložíme toto heslo: Whitesnake 1987";;;;"Uživatel se bez problém? zaregistruje.";39
+2;"ID-TC-2";"iDoklad - p?ihlášení - správný mail, správné heslo";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/";;;"Classic";;;"
+1. zadáme správný mail: martintovarek2@gmail.com
+2. zadáme správné heslo: Whitesnake1987";;;"2/21/2025 6:01 AM";"Uživatel se bez problém? p?ihlásí.";40
+3;"ID-TC-3";"iDoklad - p?ihlášení - správný mail, špatné heslo";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. zadáme správný mail: martintovarek2@gmail.com
+2. zadáme špatné heslo: Whitesnake";;;"2/21/2025 6:19 AM";"Uživatel se nep?ihlásí, upozorn?ní na nesprávné heslo.";41
+4;"ID-TC-4";"iDoklad - p?ihlášení - špatný mail, správné heslo";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. zadáme špatný mail: martintovarek2@gmail.com
+2. zadáme správné heslo: Whitesnake1987";;;"2/21/2025 6:23 AM";"Uživatel se nep?ihlásí, upozorn?ní na nesprávné uživatelské jméno.";42
+5;"ID-TC-5";"iDoklad - obnovení zapomenutého hesla";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. pod p?ihlašovacím polí?kem na https://app.idoklad.cz/Account/Login (Link: https://app.idoklad.cz/Account/Login )  klikneme na ""Zapomenuté heslo""
+2.  do polí?ka E-mailová adresa vložíme mail martintovarek2@gmail.com
+3.  klikneme na odeslat
+4.  p?ijde nam mail s možností nastavit nové heslo";;;"2/21/2025 6:29 AM";"Uživatel si snadno zm?ní zapomenuté heslo.";43
+6;"ID-TC-6";"iDoklad - vytvo?ení nové faktury";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. klikneme na zelené tla?ítko zelené tla?ítko Nový
+2. dáme fakturu vydanou
+3. zadáme odb?ratele Van Damme  inc
+4. zadáme položku - Boxovací pytel - cena bude 1599
+5. zp?sob úhrady bude hotov?
+6. klikneme na uložit";;;"2/24/2025 6:31 AM";"Faktura se v po?ádku vytvo?í a uloží s požadovanými údaji.";44
+7;"ID-TC-7";"iDoklad - úprava údaj? ve faktu?e vydané";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. v sekci prodej u faktury vydané klikneme na ?íslo faktury nebo na symbol tužky v Akce
+2. klikneme naho?e na fialové tla?ítko upravit
+3. do jednotky napíšeme ks a uložíme";;;"2/23/2025 2:28 PM";"Faktura se v po?ádku uloží s pozm?n?nými údaji.
+";45
+8;"ID-TC-8";"IDoklad - p?idání dodací adresy v adresá?i - kontakty";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. v adresá?i zadáme kontakty
+2. vybereme firmu Atletika T?ebí?, z.s.
+3. klikneme na dodací adresy
+4. naho?e klikneme na fialové tla?ítko upravit
+5. vpravo klikneme na nová - do polí?ek zadáme Atletika T?ebí? - mládež, K?ížová 27, 67401, T?ebí?
+6. dáme uložit";;;"2/25/2025 7:09 AM";"Dodací adresa se v po?ádku uloží.";46
+9;"ID-TC-9";"iDoklad - vytvo?ení dodací adresy do jiného státu";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. v kontaktech klikneme na firmu Tesco Stores ?R a.s.
+2. klikneme na dodací adresy
+3. klineme na fialové tla?ítko upravit
+4. název dodací adresy: Tesco Stores Ltd
+5. ulice: 55 Morning Ln
+6. PS?:  E9 6ND
+7. Stát: Spojené království";;;"2/25/2025 6:51 AM";"Dodací adresa do zahrani?í se nám vytvo?í.";47
+10;"ID-TC-10";"iDoklad - vytvo?ení nového bankovního ú?tu - faktura vydaná";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. klikneme na faktury vydané 
+2. pod moje platební údaje klikneme na upravit bankovní ú?et
+3. vložíme ?íslo ú?tu: 000000-1234567890
+4. kód banky: 0600 (Moneta Money Bank)
+5. dáme uložit";;;"2/24/2025 6:23 AM";"Uživatel bez problém? vytvo?í bankovní ú?et. 
+";48
+11;"ID-TC-11";"IDoklad - p?idání nového kontaktu v rámci ?R";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. v kontaktech klikneme na nový
+2. stát: ?eská republika
+3. firma: Atletika Písek, z.s.
+4. I?, ulice a m?sto se nám zobrazí automaticky";;;"2/23/2025 2:30 PM";"Záznam se v po?ádku uloží. 
+";49
+12;"ID-TC-12";"iDoklad - úprava dodací adresy z cenové nabídky";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. v sekci cenové nabídk klikneme na cenovou nabídku ?. CN20250001
+2. zaklikneme dodací adresa je jiná, než faktura?ní
+3. klkneme na upravit dodací adresu
+4. název dodací adresy: GymBeam SK
+5. ulice: Štefánikova 1877
+6. PS?: 81104
+7. M?sto: Bratislava";;;"2/25/2025 7:44 AM";"Záznam se nám v po?ádku uloží.";50
+13;"ID-TC-13";"iDoklad - p?idání nového kontaktu v rámci zahrani?í";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. v kontaktech klikneme na nový
+2.  do jména napíšeme: Carrefour
+3. ulice: 93 Avenue De Paris
+4. m?sto: Massy, Ile-de-France
+5.  PS?: 91300
+6. Stát: Francie";;;"2/23/2025 2:45 PM";"Záznam se v po?ádku uloží.";51
+14;"ID-TC-14";"iDoklad - smazání faktury vydané";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. jdeme do sekce faktury vydané
+2. vybereme faktura vydaná ?. 20250002
+3. klikneme na smazat";;;"2/23/2025 2:51 PM";"Faktura se nám smaže.";52
+15;"ID-TC-15";"iDoklad - kopírování faktury vydané";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. ve fakturách vydaných zaškrtneme fakturu ?. 20250003
+2. na hlavní lišt? klikneme na ikonu kopírovat";;;"2/23/2025 3:08 PM";"Faktura se v po?ádku zkopíruje se stejnými údaji.";53
+16;"ID-TC-16";"iDoklad - odeslání faktury vydané na mail";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/ (Link: https://app.idoklad.cz/ ) 
+
+Musí být vypln?n mail v dodacích údajích
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. zaškrtneme faktura vydaná ?. 20250003
+2. klikneme na tla?ítko odeslat
+3. zaškrtneme Zákazníkovi: martintovarek2gmail.com
+4. zaškrtneme Odkaz na PDF v prohlíže?i
+5. dáme odeslat";;;"2/23/2025 3:27 PM";"Na vybranou e-mailovou adresu p?íjde mail s fakturou. 
+";54
+17;"ID-TC-17";"iDoklad - obnovení smazané faktury vydané";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/ (Link: https://app.idoklad.cz/ ) 
+
+Aktivovaný koš - nastavení - aplikace
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. klikneme na faktury vydané
+2. klineme na koš
+3. v Akce klikneme na obnovit doklad";;;"2/25/2025 5:52 AM";"Smazaná faktura se obnoví.
+";55
+18;"ID-TC-18";"iDoklad - export faktury do PDF s novou dodací adresou";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. v kontaktech p?idáme novou dodací adresu: Chuck Norris inc.
+2. ulice: 900 Wilshire Blvd
+3. PS?: 90017
+4. m?sto: Los Angeles 
+5. stát: Spojené státy
+6. vytvo?íme novou fakturu vydanou
+7. do popisu napíšeme fakturace zboží
+8. u položky zadáme boxovací rukavice
+9. zp?sob úhrady: hotov?
+10. vybereme fakturu ?. 20250008 -  na konci ?ádku v Akce na symbol exportu do PDF";;;"2/23/2025 3:37 PM";"Faktura se nám p?evede do PDF s novou dodací adresou.";56
+19;"ID-TC-19";"iDoklad - export seznamu do XLSX a CSV";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. vybereme fakturu 20250008 a 20250007
+2. v nabídce dáme export
+3. dáme export do XLSX/CSV
+4. objeví se nám sloupce, které chceme vyexportovat
+5. dáme exportovat";;;"2/23/2025 3:53 PM";"Soubor bude odpovídat tomu co jsme si navolili v p?ehledu. 
+";57
+20;"ID-TC-20";"iDoklad - snadná úprava uživatelského ú?tu firmy";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. v nastavení klikneme na firma 
+2. zadáme Správa firem
+3. klikneme na založit novou firmu
+4. vyplníme údaje - firma: Druhá úklidová
+5. zaškrtneme nemám I?
+6. ulice: Dušní 2
+7. PS?: 11000
+8. m?sto: Praha
+9. email necháme martintovarek2@gmail.com
+10. ?íslo bankovního ú?tu: 630200-4006789495, kód banky 6215 Mbank
+11. dáme uložit";;;"2/23/2025 3:56 PM";"Pozmen?né údaje se v po?ádku uloží.";58
+21;"ID-TC-21";"iDoklad - vytvo?ení a naskladn?ní nové položky v ceníku";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. v ceníku klikneme a Seznam položek ceníku
+2. nazev položky: Red Bull
+3. jednotka: ks
+4. cena: 29,90 k?
+5. zaškrtneme Sledovat stav skladu
+6. množství zadáme 10
+7. dáme uložit";;;"2/25/2025 6:57 AM";"Údaje o produktu budou uloženy a produkt bude naskladn?n v požadovaném množství. 
+";59
+22;"ID-TC-22";"iDoklad - naskladn?ní a vyskladn?ní produktu";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. v sekci Seznam položek ceníku u položky Red Bull klikneme na naskladnit
+2. zadáme 4 kusy a dáme uložit
+3. u stejné položky klikneme na vyskladnit
+4. zadáme 2 kusy a dáme uložit";;;"2/23/2025 4:36 PM";"Stav skladu by se m?l m?nit podle toho kolik jsme naskladnili nebo vyskladnili položek.";60
+23;"ID-TC-23";"iDoklad - možnost p?idání slevy na zboží ve faktu?e vydané";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. klikneme na faktury vydané
+2. zvolíme fakturu ?. 20250008
+3. klikneme na upravit
+4. dole u ceny zadáme slevu 20%";;;"2/23/2025 4:44 PM";"Sleva se nám vypo?ítá a uloží.";61
+24;"ID-TC-24";"iDoklad - vytvo?ení cenové nabídky";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. klikneme na cenové nabídky
+2. klikneme na vytvo?it
+3. zadáme firmu GymBeam s.r.o.
+4. do popisu zadáme cenová nabídka firmy GymBeam
+5. z položky vybereme Boxovací pytel, 1999 k?, 1 ks
+6. dáme vytvo?it";;;"2/24/2025 6:23 AM";"Cenová nabídka se v po?ádku vytvo?í.";62
+25;"ID-TC-25";"iDoklad - možnost kombinace slevy na položku a zárove? celkovou slevu na fakturu";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. klikneme na fakturu ?. 20250008
+2. klikneme na upravit
+3. u položky v Akce klikneme na p?idat slevu
+4. dáme uložit";;;"2/24/2025 6:23 AM";"Bude možné mít slevu na položku i na celkové faktu?e. 
+";63
+26;"ID-TC-26";"iDoklad - možnost kontaktovat podporu";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/ (Link: https://app.idoklad.cz/ ) 
+
+Uložená registrace do zákaznického portálu
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. v sekci nápov?da klikneme na kontaktovat podporu
+2. klikneme na nový 
+3. napíšeme požadavek a dáme odeslat";;;"2/24/2025 6:49 AM";"Spojíme se s podporou.";64
+27;"ID-TC-27";"iDoklad - odhlášení a stisknutí tla?ítka zp?t";;"Založen ú?et v aplikaci iDoklad https://app.idoklad.cz/
+
+Prohlíže? Mozilla Firefox";;;"Classic";;;"
+1. odhlásíme se 
+2. zma?kneme tla?ítko zp?t";;;"2/24/2025 6:06 AM";"Uživatel by se nem?l dostat zp?t do aplikace, m?li by se zobrazit p?ihlašovací údaje.";65
